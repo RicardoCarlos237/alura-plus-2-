@@ -1,0 +1,141 @@
+:root {
+  --fonte-principal:inter;
+  --botao-vermelho-efeitos:#9e2121;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: #00030C;
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font: weight 400px;
+}
+
+.principal {
+  background-image: url(img/Background\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-items: center;
+  text-align: center;
+}
+
+.conteiner {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.conteiner__botao {
+  background-color: #167BF7;
+  border-radius: 5px;
+  padding: 1em;
+  color: white;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 1em;
+}
+
+.botao_segundario {
+  background-color: transparent;
+  border: 2px solid var(white)
+}
+
+.conteiner__aviso {
+  font-size: 12px;
+
+  color: #fff;
+}
+
+.conteiner__titulo {
+  font-size: 28px;
+  width: 700;
+  color: #fff
+}
+
+.conteiner__imagems {
+  margin: 1em 0 2en 0;
+}
+
+.conteiner__caixa {
+  margin: 0 6em;
+}
+
+.descricao__titulo {
+  color: #fff;
+  font-weight: 700;
+  font: size 48px;
+  margin: bottom 0.1em;
+}
+.descricao__texto {
+  color: #fff; 
+}
+
+.segundario__imagem {
+  width: 70%;
+}
+.segundario {
+  align-items: center;
+  margin: 0 6em;
+}
+.secundario__botao{
+  display:inline-block;
+  margin: 1em;
+}
+.conteiner__descricao{  
+  padding: 2em;
+}
+ 
+.dispositivos__lista{
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  list-style-type: none;
+  margin: 5em 0;
+}
+.dispositivos{
+  color: white;
+  text-align: center;
+}
+.dispositivos__titulo{ font-size: 48px;
+  color: #fff;
+}
+.lista__item{
+  color: #fff;
+  font-size: 32px;
+}
+.rodape__lista {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 1em;
+}
+.lista__link a{
+text-decoration:none;
+  color: #fff;
+  margin-left: 2em;
+}
+.rodape__texto {
+  margin: 1em 0;
+  color: #fff;
+  font-size: 14px;
+}
+.rodape {
+  text-align:center;
+  margin: 5em 3em;
+}
+.rodape_logo{
+  margin: 2em;
+}
+.lista__link a:hover{
+  color: #167BF7;
+}
+.lista__link a:active{
+  color: red;
+} 
+.conteiner__botao:hover{
+  background-color:var(--botao-vermelho-efeitos);
+  color: #000;
+}
